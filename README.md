@@ -30,3 +30,8 @@ for the HLT paths to a file `hltinfo_menus.json`:
 ```
 python3 dump_hltinfo_menus.py
 ```
+
+Then parse the json file and output a summary text file:
+```
+python3 dump_hltinfo_menus_txt.py
+```
